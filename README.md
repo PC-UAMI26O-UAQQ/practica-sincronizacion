@@ -1,3 +1,4 @@
+
 # Práctica: sincronización de hilos en Java
 
 Estudiante: Uriel Antonio Quiroz Quintero 
@@ -8,7 +9,8 @@ Estudiante: Uriel Antonio Quiroz Quintero
 1.SumaSinSincronizacion: cuatro hilos incrementan una variable compartida
  sin ningúna sincronización.
 valores obtenidos:101233-97215-84275
-2.SumaLock: exclusión mutua con ReentrantLoc.
+
+2.SumaLock: exclusión mutua con ReentrantLoc ValoresOptenidos:200000-00000-200000-200000-200000-200000
 3.SumaSpinLock: espera activa con tryLock().
 4.SumaSemaforo: exclusión mutua con Semaphore.
 5.SumaBarrera: coordinación de fases con CyclicBarrier.
